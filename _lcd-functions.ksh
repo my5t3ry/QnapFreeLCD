@@ -62,7 +62,7 @@ set -A ROW
 # get current index count as start value
 INDEX=${#ROW[@]}
 # query
-HOST="$(hostname)"
+HOST="$(hostname) ¯\(º_o)/¯"
 IP=$(ifconfig | grep "inet addr" | cut -d: -f2 | cut -f 1 -d " " | grep -v "127.0.")
 # result
 ROW[${INDEX}]="${HOST}"
